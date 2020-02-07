@@ -33,7 +33,7 @@ import android.view.MotionEvent;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.view.inputmethod.EditorInfo;
-import android.widget.EditText;
+import android.widget.TextView;
 
 import com.bluecollar.hub.R;
 
@@ -42,7 +42,7 @@ import com.bluecollar.hub.R;
  * Do not make any changes here that do anything that a TextView
  * with a key listener and a movement method wouldn't do!
  */
-public class BcEditText extends EditText {
+public class BcEditText extends TextView {
     private static final String TAG = "BcEditText";
     protected Context mContext = null;
 
@@ -84,7 +84,7 @@ public class BcEditText extends EditText {
     public void setNeedShowClearAction(boolean show) {
         if (showClearActionBtn != show) {
             showClearActionBtn = show;
-            twsSetDrawable();
+            bcSetDrawable();
         }
     }
 
@@ -108,7 +108,7 @@ public class BcEditText extends EditText {
                             mContext.getResources().getDrawable(R.mipmap.ic_clear_del_vpsd_holo_light_colorbg),};
                 }
             }
-            twsSetDrawable();
+            bcSetDrawable();
         }
     }
 
@@ -131,7 +131,7 @@ public class BcEditText extends EditText {
 
             @Override
             public void onTextChanged(CharSequence arg0, int arg1, int arg2, int arg3) {
-                twsSetDrawable();
+                bcSetDrawable();
             }
 
             @Override
@@ -153,10 +153,10 @@ public class BcEditText extends EditText {
             mPasswordInputType = -1;
         }
 
-        twsSetDrawable();
+        bcSetDrawable();
     }
 
-    public void twsSetDrawable() {
+    public void bcSetDrawable() {
         if (length() < 1) {
             mActionStatus = mPasswordInputType;
         } else {
@@ -201,7 +201,7 @@ public class BcEditText extends EditText {
                     if (rect.left <= eventX && eventX <= rect.right) {
                         setText("");
 
-                        twsSetDrawable();
+                        bcSetDrawable();
                     }
                     break;
                 case 3:
@@ -212,7 +212,7 @@ public class BcEditText extends EditText {
                         if (rect.left <= eventX && eventX <= rect.right) {
                             setText("");
 
-                            twsSetDrawable();
+                            bcSetDrawable();
                         }
                     }
                     break;
@@ -224,7 +224,7 @@ public class BcEditText extends EditText {
                         if (rect.left <= eventX && eventX <= rect.right) {
                             setText("");
 
-                            twsSetDrawable();
+                            bcSetDrawable();
                         }
                     }
                     break;
@@ -247,7 +247,7 @@ public class BcEditText extends EditText {
             mPasswordInputType = -1;
         }
 
-        twsSetDrawable();
+        bcSetDrawable();
     }
 
     @Override
