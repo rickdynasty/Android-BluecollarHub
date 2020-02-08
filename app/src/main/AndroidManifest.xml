@@ -101,5 +101,21 @@
                 <category android:name="com.bluecollar.hub.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.bluecollar.hub.apidemos.draw.Paint.WaveActivity"
+            android:label="@string/activity_label_WaveActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.bluecollar.hub.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bluecollar.hub.apidemos.draw.Paint.FilterActivity"
+            android:label="@string/activity_label_FilterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.bluecollar.hub.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
     </application>
 </manifest>

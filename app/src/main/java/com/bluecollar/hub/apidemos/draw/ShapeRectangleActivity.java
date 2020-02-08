@@ -12,5 +12,4 @@ public class ShapeRectangleActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.shape_rectangle);
     }
-
 }

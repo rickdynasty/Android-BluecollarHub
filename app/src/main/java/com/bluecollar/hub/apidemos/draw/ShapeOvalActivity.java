@@ -1,6 +1,5 @@
 package com.bluecollar.hub.apidemos.draw;
 
-import android.app.Activity;
 import android.os.Bundle;
 
 import com.bluecollar.hub.R;

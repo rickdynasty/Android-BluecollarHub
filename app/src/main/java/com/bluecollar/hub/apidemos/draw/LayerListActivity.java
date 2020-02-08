@@ -12,5 +12,4 @@ public class LayerListActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_layer_list);
     }
-
 }
