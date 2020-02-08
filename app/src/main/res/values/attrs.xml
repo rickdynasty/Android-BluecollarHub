@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <attr name="bcEditTextStyle" format="reference" />
-    <declare-styleable name="BcEditText">
-        <attr name="showClear" format="boolean" />
-        <attr name="isWhiteBackground" format="boolean" />
-    </declare-styleable>
-</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="bcEditTextStyle" format="reference" />
+    <attr name="back_icon" format="reference" />
+    <attr name="close_icon" format="reference" />
+    <attr name="action_icon" format="reference" />
+    <attr name="enable_under_divider" format="boolean" />
+    <attr name="under_divider_color" format="color" />
+    <attr name="under_divider_height" format="dimension" />
+    <attr name="support_translucent_status_bar" format="boolean" />
+    <attr name="menu_text_size" format="dimension" />
+    <attr name="menu_text_color" format="color" />
+
+    <declare-styleable name="ImmersiveStatus">
+        <attr name="immersivemode" format="boolean" />
+    </declare-styleable>
+    
+    <declare-styleable name="BcEditText">
+        <attr name="showClear" format="boolean" />
+        <attr name="isWhiteBackground" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="BcToolbar">
+        <attr name="title" format="string" />
+        <attr name="sub_title" format="string" />
+        <attr name="title_text_size" format="dimension" />
+        <attr name="title_text_color" format="color" />
+        <attr name="sub_title_text_size" format="dimension" />
+        <attr name="sub_title_text_color" format="color" />
+        <attr name="menu_text_size" />
+        <attr name="menu_text_color" />
+        <attr name="back_icon" />
+        <attr name="close_icon" />
+        <attr name="action_icon" />
+        <attr name="action_text" format="string" />
+        <attr name="enable_under_divider" />
+        <attr name="under_divider_color" />
+        <attr name="under_divider_height" />
+        <attr name="support_translucent_status_bar" />
+        <attr name="android:height" />
+    </declare-styleable>
+</resources>

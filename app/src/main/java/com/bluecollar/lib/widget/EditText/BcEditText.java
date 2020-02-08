@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.bluecollar.lib.widget;
+package com.bluecollar.lib.widget.EditText;
 
 import android.content.Context;
 import android.content.res.TypedArray;

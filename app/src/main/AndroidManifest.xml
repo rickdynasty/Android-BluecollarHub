@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.bc">
-        <activity android:name=".MainActivity">
+        <activity android:name=".apidemos.ApiDemos">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -17,7 +17,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".apidemos.ApiDemos"></activity>
         <activity
             android:name=".apidemos.widget.BcEditTextActivity"
             android:hardwareAccelerated="false"
@@ -27,6 +26,78 @@
                 <category android:name="com.bluecollar.hub.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
-    </application>
 
+        <activity
+            android:name="com.bluecollar.hub.apidemos.draw.ShapeRectangleActivity"
+            android:label="@string/activity_label_shaperectangele">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.bluecollar.hub.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bluecollar.hub.apidemos.draw.ShapeOvalActivity"
+            android:label="@string/activity_label_shapeoval">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.bluecollar.hub.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bluecollar.hub.apidemos.draw.ShapeLineActivity"
+            android:label="@string/activity_label_shapeline">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.bluecollar.hub.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bluecollar.hub.apidemos.draw.ShapeRingActivity"
+            android:label="@string/activity_label_shapering">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.bluecollar.hub.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bluecollar.hub.apidemos.draw.SelectorActivity"
+            android:label="@string/activity_label_layoutselector">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.bluecollar.hub.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bluecollar.hub.apidemos.draw.LayerListActivity"
+            android:label="@string/activity_label_layoutlayerlist">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.bluecollar.hub.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bluecollar.hub.apidemos.draw.PorterDuff.XfermodesActivity"
+            android:label="@string/activity_label_porterDuffXfermodes">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.bluecollar.hub.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bluecollar.hub.apidemos.draw.PorterDuff.ClipActivity"
+            android:label="@string/activity_label_porterDuffclip">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.bluecollar.hub.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bluecollar.hub.apidemos.draw.PorterDuff.TintActivity"
+            android:label="@string/activity_label_porterDufftint">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.bluecollar.hub.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+    </application>
 </manifest>

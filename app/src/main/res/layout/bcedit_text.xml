@@ -4,11 +4,13 @@
     android:layout_height="fill_parent"
     android:orientation="vertical">
 
+    <include layout="@layout/tool_bar_layout" />
+
     <androidx.legacy.widget.Space
         android:layout_width="match_parent"
         android:layout_height="35dp" />
 
-    <com.bluecollar.lib.widget.BcEditText
+    <com.bluecollar.lib.widget.EditText.BcEditText
         android:id="@+id/tws_edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

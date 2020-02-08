@@ -1,14 +1,14 @@
 package com.bluecollar.hub.apidemos.widget;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 import com.bluecollar.hub.R;
-import com.bluecollar.lib.widget.BcEditText;
+import com.bluecollar.lib.widget.BaseActivity;
+import com.bluecollar.lib.widget.EditText.BcEditText;
 
-public class BcEditTextActivity extends Activity implements Button.OnClickListener {
+public class BcEditTextActivity extends BaseActivity implements Button.OnClickListener {
     private boolean bNeedClearAction = false; // 系统默认是显示
     private boolean isWhiteBackground = true; // 系统默认是白色背景
     BcEditText editText;

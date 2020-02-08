@@ -3,4 +3,7 @@
     <color name="transparent">#00000000</color>
 
     <color name="highlighted_text_holo_light">#330074d6</color>
+    <!--分割线-->
+    <color name="divider">#d5d5d5</color>
+    <color name="title_bar">#D33630</color>
 </resources>

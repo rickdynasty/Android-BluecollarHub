@@ -2,5 +2,22 @@
     <string name="app_name">Android-BluecollarHub</string>
     <string name="show_widget">Widget</string>
 
+    <string name="des_red_filter">R-红色:</string>
+    <string name="des_green_filter">G-绿色:</string>
+    <string name="des_blue_filter">B-蓝色:</string>
+    <string name="des_alpha_filter">A-透明:</string>
+
     <string name="activity_label_BcEditTextActivity">Widget/BcEditText</string>
+
+    <string name="activity_label_shaperectangele">Draw/Shape/Rectangele</string>
+    <string name="activity_label_shapeoval">Draw/Shape/Oval</string>
+    <string name="activity_label_shapeline">Draw/Shape/Line</string>
+    <string name="activity_label_shapering">Draw/Shape/Ring</string>
+    <string name="activity_label_layoutselector">Draw/Selector</string>
+    <string name="activity_label_layoutlayerlist">Draw/LayerList</string>
+    <string name="activity_label_porterDuffXfermodes">Draw/PorterDuff/Xfermodes</string>
+    <string name="activity_label_porterDuffclip">Draw/PorterDuff/Clip</string>
+    <string name="activity_label_porterDufftint">Draw/PorterDuff/Tint</string>
+    <string name="activity_label_porterDuffclear">Draw/PorterDuff/Clear</string>
+    <string name="activity_label_GraphicesActivity">Draw/Graphices</string>
 </resources>
