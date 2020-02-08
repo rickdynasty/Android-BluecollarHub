@@ -20,4 +20,6 @@
     <string name="activity_label_porterDufftint">Draw/PorterDuff/Tint</string>
     <string name="activity_label_porterDuffclear">Draw/PorterDuff/Clear</string>
     <string name="activity_label_GraphicesActivity">Draw/Graphices</string>
+
+    <string name="loading">Loading\u2026</string>
 </resources>

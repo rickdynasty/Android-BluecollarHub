@@ -11,6 +11,7 @@ import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
 import com.bluecollar.hub.R;
+import com.bluecollar.lib.widget.BaseListActivity;
 
 import java.text.Collator;
 import java.util.ArrayList;
@@ -20,7 +21,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ApiDemos extends ListActivity {
+public class ApiDemos extends BaseListActivity {
     private static final String CATEGORY_SAMPLE = "com.bluecollar.hub.category.SAMPLE_CODE";
     private static final String EXTRA_PROGRAM = "com.bluecollar.hub.Path";
 

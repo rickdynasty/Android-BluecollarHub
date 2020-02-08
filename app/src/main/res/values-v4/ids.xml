@@ -5,4 +5,5 @@
     <item name="bc_tool_bar" type="id" />
     <item name="bc_toolbar_title" type="id" />
     <item name="bc_toolbar_subtitle" type="id" />
+    <item name="list" type="id" />
 </resources>

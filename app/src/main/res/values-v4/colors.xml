@@ -2,8 +2,28 @@
 <resources>
     <color name="transparent">#00000000</color>
 
+    <color name="bc_dark_gray">#515151</color>
+    <color name="bc_light_black">#ff333333</color>
+    <color name="list_item_activated">#dfe4e6</color>
+    <color name="bc_transparent">#00000000</color>
+    <color name="bc_light_display">#cc000000</color>
+    <color name="bc_light_title">#cc000000</color>
+    <color name="bc_light_body">#cc000000</color>
+    <color name="bc_light_body_sub">#66000000</color>
+    <color name="bc_light_summary">#66000000</color>
+    <color name="bc_light_caption">#66000000</color>
+    <color name="bc_white">#ffffffff</color>
+    <color name="bc_black">#ff000000</color>
+    <color name="bc_dark_display">#ccffffff</color>
+    <color name="bc_dark_title">#ffffffff</color>
+    <color name="bc_dark_body">#ccffffff</color>
+    <color name="bc_dark_body_sub">#72ffffff</color>
+    <color name="bc_dark_summary">#4cffffff</color>
+    <color name="bc_blue">#ff22b2b6</color>
+    <color name="bc_red">#ff5773</color>
+
     <color name="highlighted_text_holo_light">#330074d6</color>
     <!--分割线-->
     <color name="divider">#d5d5d5</color>
-    <color name="title_bar">#D33630</color>
+    <color name="toolbar_bg">#008577</color>
 </resources>

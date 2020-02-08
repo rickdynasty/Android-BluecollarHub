@@ -55,7 +55,7 @@
         android:textColor="@color/text_btn_selector" />
 
     <ListView
-        android:id="@+id/list"
+        android:id="@id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:listSelector="@drawable/bg_list_item_selector" />

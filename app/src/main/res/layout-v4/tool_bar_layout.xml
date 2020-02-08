@@ -5,13 +5,13 @@
         android:id="@id/status_bar_place_holder"
         android:layout_width="match_parent"
         android:layout_height="20dp"
-        android:background="@color/title_bar"
+        android:background="@color/toolbar_bg"
         android:visibility="visible" />
 
     <com.bluecollar.lib.widget.toolbar.BcToolbar
         android:id="@id/bc_tool_bar"
         style="@style/WhiteFontToolbar"
-        android:background="@color/title_bar"
+        android:background="@color/toolbar_bg"
         android:minHeight="?attr/actionBarSize">
 
         <androidx.appcompat.widget.LinearLayoutCompat
@@ -34,6 +34,7 @@
                 android:layout_weight="3"
                 android:ellipsize="end"
                 android:gravity="center"
+                android:textColor="@color/bc_white"
                 android:lines="1"
                 android:scrollHorizontally="true"
                 android:text="title" />

@@ -4,7 +4,6 @@ import android.content.Context;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-
 /**
  * @Author: rick_tan
  * @Date: 19-7-21
@@ -12,7 +11,6 @@ import androidx.fragment.app.Fragment;
  * @Des BaseFragment
  */
 public class BaseFragment extends Fragment {
-
     /**
      * TAG：可供日志打印使用
      */
@@ -29,6 +27,4 @@ public class BaseFragment extends Fragment {
         mContext = getActivity();
         TAG = getTag();
     }
-
-
 }
