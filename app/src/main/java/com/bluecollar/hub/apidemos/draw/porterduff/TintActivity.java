@@ -1,4 +1,4 @@
-package com.bluecollar.hub.apidemos.draw.PorterDuff;
+package com.bluecollar.hub.apidemos.draw.porterduff;
 
 import android.app.Activity;
 import android.graphics.BitmapFactory;

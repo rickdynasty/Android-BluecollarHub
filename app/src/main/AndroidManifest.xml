@@ -78,7 +78,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.bluecollar.hub.apidemos.draw.PorterDuff.XfermodesActivity"
+            android:name="com.bluecollar.hub.apidemos.draw.porterduff.XfermodesActivity"
             android:label="@string/activity_label_porterDuffXfermodes">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -86,7 +86,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.bluecollar.hub.apidemos.draw.PorterDuff.ClipActivity"
+            android:name="com.bluecollar.hub.apidemos.draw.porterduff.ClipActivity"
             android:label="@string/activity_label_porterDuffclip">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -94,7 +94,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.bluecollar.hub.apidemos.draw.PorterDuff.TintActivity"
+            android:name="com.bluecollar.hub.apidemos.draw.porterduff.TintActivity"
             android:label="@string/activity_label_porterDufftint">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -102,7 +102,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.bluecollar.hub.apidemos.draw.Paint.WaveActivity"
+            android:name="com.bluecollar.hub.apidemos.draw.paint.WaveActivity"
             android:label="@string/activity_label_WaveActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -110,8 +110,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.bluecollar.hub.apidemos.draw.Paint.FilterActivity"
+            android:name="com.bluecollar.hub.apidemos.draw.paint.FilterActivity"
             android:label="@string/activity_label_FilterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.bluecollar.hub.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bluecollar.hub.apidemos.anim.AnimationLoadingActivity"
+            android:label="@string/activity_label_AnimationLoadingActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="com.bluecollar.hub.category.SAMPLE_CODE" />

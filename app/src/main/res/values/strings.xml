@@ -23,5 +23,7 @@
     <string name="activity_label_WaveActivity">Draw/Paint/Wave</string>
     <string name="activity_label_FilterActivity">Draw/Paint/ColorFilter</string>
 
+    <string name="activity_label_AnimationLoadingActivity">Animation/Animation_Loading</string>
+
     <string name="loading">Loading\u2026</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.bluecollar.hub.apidemos.draw.Paint;
+package com.bluecollar.hub.apidemos.draw.paint;
 
 import android.os.Bundle;
 
