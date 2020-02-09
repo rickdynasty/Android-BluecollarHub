@@ -1,4 +1,4 @@
-package com.bluecollar.lib.widget;
+package com.bluecollar.lib.base;
 
 import android.annotation.SuppressLint;
 import android.content.res.TypedArray;
@@ -17,7 +17,7 @@ import androidx.appcompat.view.menu.MenuBuilder;
 import androidx.appcompat.widget.Toolbar;
 
 import com.bluecollar.hub.R;
-import com.bluecollar.lib.widget.toolbar.BcToolbar;
+import com.bluecollar.lib.widget.BcToolbar;
 import com.bluecollar.lib.widget.utils.StatusBarUtils;
 
 import java.lang.reflect.Method;

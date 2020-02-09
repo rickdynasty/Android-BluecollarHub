@@ -8,7 +8,7 @@
         android:background="@color/toolbar_bg"
         android:visibility="visible" />
 
-    <com.bluecollar.lib.widget.toolbar.BcToolbar
+    <com.bluecollar.lib.widget.BcToolbar
         android:id="@id/bc_tool_bar"
         style="@style/WhiteFontToolbar"
         android:background="@color/toolbar_bg"
@@ -56,6 +56,6 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
         </androidx.appcompat.widget.LinearLayoutCompat>
-    </com.bluecollar.lib.widget.toolbar.BcToolbar>
+    </com.bluecollar.lib.widget.BcToolbar>
 
 </merge>

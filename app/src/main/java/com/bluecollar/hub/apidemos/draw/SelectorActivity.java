@@ -3,7 +3,7 @@ package com.bluecollar.hub.apidemos.draw;
 import android.os.Bundle;
 
 import com.bluecollar.hub.R;
-import com.bluecollar.lib.widget.BaseActivity;
+import com.bluecollar.lib.base.BaseActivity;
 
 public class SelectorActivity extends BaseActivity {
 

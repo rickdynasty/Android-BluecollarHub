@@ -1,6 +1,5 @@
 package com.bluecollar.hub.apidemos;
 
-import android.app.ListActivity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
@@ -11,7 +10,7 @@ import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
 import com.bluecollar.hub.R;
-import com.bluecollar.lib.widget.BaseListActivity;
+import com.bluecollar.lib.base.BaseListActivity;
 
 import java.text.Collator;
 import java.util.ArrayList;

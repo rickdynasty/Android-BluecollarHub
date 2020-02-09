@@ -5,8 +5,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.bluecollar.hub.R;
-import com.bluecollar.lib.widget.BaseActivity;
-import com.bluecollar.lib.widget.EditText.BcEditText;
+import com.bluecollar.lib.base.BaseActivity;
+import com.bluecollar.lib.widget.BcEditText;
 
 public class BcEditTextActivity extends BaseActivity implements Button.OnClickListener {
     private boolean bNeedClearAction = false; // 系统默认是显示

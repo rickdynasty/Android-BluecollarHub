@@ -1,4 +1,4 @@
-package com.bluecollar.lib.widget;
+package com.bluecollar.lib.base;
 
 import android.app.Activity;
 import android.os.Bundle;

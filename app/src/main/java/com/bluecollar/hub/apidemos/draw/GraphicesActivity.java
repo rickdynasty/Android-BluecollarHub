@@ -11,7 +11,7 @@ import android.graphics.Shader;
 import android.os.Bundle;
 import android.view.View;
 
-import com.bluecollar.lib.widget.BaseActivity;
+import com.bluecollar.lib.base.BaseActivity;
 
 public class GraphicesActivity extends BaseActivity {
     /**

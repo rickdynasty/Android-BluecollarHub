@@ -1,4 +1,4 @@
-package com.bluecollar.lib.widget.toolbar;
+package com.bluecollar.lib.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
