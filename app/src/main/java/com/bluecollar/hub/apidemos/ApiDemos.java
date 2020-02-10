@@ -23,10 +23,27 @@ import java.util.Map;
 public class ApiDemos extends BaseListActivity {
     private static final String CATEGORY_SAMPLE = "com.bluecollar.hub.category.SAMPLE_CODE";
     private static final String EXTRA_PROGRAM = "com.bluecollar.hub.Path";
+//    private MyDatabaseHelper dbHelper;
+
+//    private Uri uri = Uri.parse("content://com.bluecollar.hub.provider/Book");
+//    ContentResolver resolver;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+//        resolver = getContentResolver();
+//        ContentValues values = new ContentValues();
+//        values.put("name", "The Da Vinci Code");
+//        values.put("author", "Dan Brown");
+//        values.put("pages", 454);
+//        values.put("price", 16.96);
+//        resolver.insert(uri, values); // 插入第一条数据
+
+//        dbHelper = new MyDatabaseHelper(this, "BookStore.db", null, 1);
+//        SQLiteDatabase db = dbHelper.getWritableDatabase();
+//        ContentValues values = new ContentValues();
+//        values.put("price", 10.99);
+//        db.update("Book", values, "name = ?", new String[]{"The Da Vinci Code"});
 
         Intent intent = getIntent();
         String path = intent.getStringExtra(EXTRA_PROGRAM);
